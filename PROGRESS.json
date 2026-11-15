@@ -1,0 +1,29 @@
+
+{
+  "repository": "Additional-Learning",
+  "category": "Additional Technical Learning",
+  "status": "Not Started",
+  "overall": {
+    "totalTopics": 0,
+    "completedTopics": 0,
+    "inProgressTopics": 0,
+    "currentTopic": null
+  },
+  "questions": {
+    "total": 0,
+    "solved": 0,
+    "remaining": 0,
+    "difficulty": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+    }
+  },
+  "topics": [],
+  "projects": {
+    "completed": 0,
+    "inProgress": 0,
+    "planned": 0
+  },
+  "lastUpdated": null
+}
