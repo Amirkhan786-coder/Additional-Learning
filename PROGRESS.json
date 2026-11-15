@@ -1,29 +1,309 @@
 
 {
   "repository": "Additional-Learning",
-  "category": "Additional Technical Learning",
-  "status": "Not Started",
+  "category": "Additional Technologies and Skills",
+  "status": "In Progress",
   "overall": {
-    "totalTopics": 0,
+    "totalPhases": 15,
+    "completedPhases": 0,
+    "currentPhase": 1,
+    "currentPhaseName": "Git & GitHub",
+    "currentTopic": "Git Fundamentals",
+    "totalTopics": 116,
     "completedTopics": 0,
-    "inProgressTopics": 0,
-    "currentTopic": null
+    "progressPercentage": 0
   },
-  "questions": {
-    "total": 0,
-    "solved": 0,
-    "remaining": 0,
-    "difficulty": {
-      "easy": 0,
-      "medium": 0,
-      "hard": 0
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Git & GitHub",
+      "status": "In Progress",
+      "topicGroups": [
+        {
+          "name": "Git Fundamentals",
+          "topics": [
+            { "name": "Git Fundamentals", "status": "In Progress" },
+            { "name": "Git Installation and Configuration", "status": "Not Started" },
+            { "name": "Repository Creation", "status": "Not Started" },
+            { "name": "Git Init, Add, Commit", "status": "Not Started" },
+            { "name": "Git Status and Log", "status": "Not Started" }
+          ]
+        },
+        {
+          "name": "GitHub Collaboration",
+          "topics": [
+            { "name": "Branching and Merging", "status": "Not Started" },
+            { "name": "Git Push and Pull", "status": "Not Started" },
+            { "name": "Clone and Fork", "status": "Not Started" },
+            { "name": "Pull Requests", "status": "Not Started" },
+            { "name": "Merge Conflicts", "status": "Not Started" },
+            { "name": "GitHub Collaboration", "status": "Not Started" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "HTML",
+      "status": "Not Started",
+      "topics": [
+        { "name": "HTML Document Structure", "status": "Not Started" },
+        { "name": "Elements and Attributes", "status": "Not Started" },
+        { "name": "Headings and Paragraphs", "status": "Not Started" },
+        { "name": "Lists and Tables", "status": "Not Started" },
+        { "name": "Forms and Input Elements", "status": "Not Started" },
+        { "name": "Links and Images", "status": "Not Started" },
+        { "name": "Semantic HTML", "status": "Not Started" },
+        { "name": "HTML5 Features", "status": "Not Started" },
+        { "name": "Accessibility Basics", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "CSS",
+      "status": "Not Started",
+      "topics": [
+        { "name": "CSS Fundamentals", "status": "Not Started" },
+        { "name": "Selectors and Properties", "status": "Not Started" },
+        { "name": "Box Model", "status": "Not Started" },
+        { "name": "Colors and Typography", "status": "Not Started" },
+        { "name": "Flexbox", "status": "Not Started" },
+        { "name": "CSS Grid", "status": "Not Started" },
+        { "name": "Positioning", "status": "Not Started" },
+        { "name": "Transitions and Animations", "status": "Not Started" },
+        { "name": "Responsive Design", "status": "Not Started" },
+        { "name": "Media Queries", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "JavaScript",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Variables and Data Types", "status": "Not Started" },
+        { "name": "Operators and Conditions", "status": "Not Started" },
+        { "name": "Loops", "status": "Not Started" },
+        { "name": "Functions", "status": "Not Started" },
+        { "name": "Arrays and Objects", "status": "Not Started" },
+        { "name": "DOM Manipulation", "status": "Not Started" },
+        { "name": "Events", "status": "Not Started" },
+        { "name": "ES6+ Features", "status": "Not Started" },
+        { "name": "Promises and Async/Await", "status": "Not Started" },
+        { "name": "Fetch API", "status": "Not Started" },
+        { "name": "Error Handling", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "React.js",
+      "status": "Not Started",
+      "topics": [
+        { "name": "React Fundamentals", "status": "Not Started" },
+        { "name": "Components", "status": "Not Started" },
+        { "name": "JSX", "status": "Not Started" },
+        { "name": "Props and State", "status": "Not Started" },
+        { "name": "useState", "status": "Not Started" },
+        { "name": "useEffect", "status": "Not Started" },
+        { "name": "Event Handling", "status": "Not Started" },
+        { "name": "Conditional Rendering", "status": "Not Started" },
+        { "name": "Lists and Keys", "status": "Not Started" },
+        { "name": "React Router", "status": "Not Started" },
+        { "name": "Context API", "status": "Not Started" },
+        { "name": "API Integration", "status": "Not Started" },
+        { "name": "Project Development", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Node.js & Express.js",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Node.js Fundamentals", "status": "Not Started" },
+        { "name": "NPM", "status": "Not Started" },
+        { "name": "Modules", "status": "Not Started" },
+        { "name": "File System", "status": "Not Started" },
+        { "name": "Express.js", "status": "Not Started" },
+        { "name": "Routing", "status": "Not Started" },
+        { "name": "Middleware", "status": "Not Started" },
+        { "name": "Error Handling", "status": "Not Started" },
+        { "name": "Backend Project", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "REST APIs",
+      "status": "Not Started",
+      "topics": [
+        { "name": "API Fundamentals", "status": "Not Started" },
+        { "name": "HTTP Methods", "status": "Not Started" },
+        { "name": "HTTP Status Codes", "status": "Not Started" },
+        { "name": "JSON", "status": "Not Started" },
+        { "name": "REST Architecture", "status": "Not Started" },
+        { "name": "API Requests", "status": "Not Started" },
+        { "name": "Authentication", "status": "Not Started" },
+        { "name": "API Testing with Postman", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 8,
+      "name": "Database Management",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Database Fundamentals", "status": "Not Started" },
+        { "name": "MySQL", "status": "Not Started" },
+        { "name": "MongoDB", "status": "Not Started" },
+        { "name": "CRUD Operations", "status": "Not Started" },
+        { "name": "Relationships", "status": "Not Started" },
+        { "name": "Indexing", "status": "Not Started" },
+        { "name": "Database Design", "status": "Not Started" },
+        { "name": "Database Integration", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 9,
+      "name": "Linux & Command Line",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Linux Fundamentals", "status": "Not Started" },
+        { "name": "Terminal Commands", "status": "Not Started" },
+        { "name": "File and Directory Management", "status": "Not Started" },
+        { "name": "Permissions", "status": "Not Started" },
+        { "name": "Environment Variables", "status": "Not Started" },
+        { "name": "Shell Basics", "status": "Not Started" },
+        { "name": "Process Management", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 10,
+      "name": "Computer Networks",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Network Fundamentals", "status": "Not Started" },
+        { "name": "OSI Model", "status": "Not Started" },
+        { "name": "TCP/IP Model", "status": "Not Started" },
+        { "name": "IP Addressing", "status": "Not Started" },
+        { "name": "DNS", "status": "Not Started" },
+        { "name": "HTTP and HTTPS", "status": "Not Started" },
+        { "name": "Client-Server Architecture", "status": "Not Started" },
+        { "name": "Ports and Protocols", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 11,
+      "name": "Operating Systems",
+      "status": "Not Started",
+      "topics": [
+        { "name": "OS Fundamentals", "status": "Not Started" },
+        { "name": "Processes and Threads", "status": "Not Started" },
+        { "name": "CPU Scheduling", "status": "Not Started" },
+        { "name": "Memory Management", "status": "Not Started" },
+        { "name": "Virtual Memory", "status": "Not Started" },
+        { "name": "Deadlocks", "status": "Not Started" },
+        { "name": "File Systems", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 12,
+      "name": "Software Engineering & SDLC",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Software Development Life Cycle", "status": "Not Started" },
+        { "name": "Requirement Analysis", "status": "Not Started" },
+        { "name": "Software Design", "status": "Not Started" },
+        { "name": "Testing Fundamentals", "status": "Not Started" },
+        { "name": "Debugging", "status": "Not Started" },
+        { "name": "Version Control Workflow", "status": "Not Started" },
+        { "name": "Agile and Scrum", "status": "Not Started" },
+        { "name": "Documentation", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 13,
+      "name": "Cloud Computing",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Cloud Fundamentals", "status": "Not Started" },
+        { "name": "IaaS, PaaS and SaaS", "status": "Not Started" },
+        { "name": "Cloud Deployment Models", "status": "Not Started" },
+        { "name": "AWS Fundamentals", "status": "Not Started" },
+        { "name": "Azure Fundamentals", "status": "Not Started" },
+        { "name": "Cloud Storage", "status": "Not Started" },
+        { "name": "Cloud Hosting", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 14,
+      "name": "Docker & DevOps",
+      "status": "Not Started",
+      "topics": [
+        { "name": "DevOps Fundamentals", "status": "Not Started" },
+        { "name": "Docker Fundamentals", "status": "Not Started" },
+        { "name": "Images and Containers", "status": "Not Started" },
+        { "name": "Dockerfile", "status": "Not Started" },
+        { "name": "Docker Compose", "status": "Not Started" },
+        { "name": "CI/CD Basics", "status": "Not Started" },
+        { "name": "GitHub Actions", "status": "Not Started" }
+      ]
+    },
+    {
+      "phase": 15,
+      "name": "Deployment & Hosting",
+      "status": "Not Started",
+      "topics": [
+        { "name": "Hosting Fundamentals", "status": "Not Started" },
+        { "name": "Vercel", "status": "Not Started" },
+        { "name": "Netlify", "status": "Not Started" },
+        { "name": "Render", "status": "Not Started" },
+        { "name": "Environment Variables", "status": "Not Started" },
+        { "name": "Domain and DNS", "status": "Not Started" },
+        { "name": "Production Deployment", "status": "Not Started" },
+        { "name": "Deployment Troubleshooting", "status": "Not Started" }
+      ]
     }
-  },
-  "topics": [],
-  "projects": {
-    "completed": 0,
-    "inProgress": 0,
-    "planned": 0
-  },
-  "lastUpdated": null
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "technology": "HTML, CSS, JavaScript, React",
+      "status": "In Progress"
+    },
+    {
+      "name": "Responsive Website",
+      "technology": "HTML, CSS, JavaScript",
+      "status": "Not Started"
+    },
+    {
+      "name": "Full Stack Application",
+      "technology": "React, Node.js, Database",
+      "status": "Not Started"
+    },
+    {
+      "name": "REST API Project",
+      "technology": "Node.js, Express",
+      "status": "Not Started"
+    },
+    {
+      "name": "Dockerized Application",
+      "technology": "Docker",
+      "status": "Not Started"
+    },
+    {
+      "name": "Cloud Deployment Project",
+      "technology": "Cloud Platform",
+      "status": "Not Started"
+    }
+  ],
+  "skills": [
+    { "name": "Git & GitHub", "status": "In Progress" },
+    { "name": "Frontend Development", "status": "Not Started" },
+    { "name": "Backend Development", "status": "Not Started" },
+    { "name": "API Integration", "status": "Not Started" },
+    { "name": "Database Management", "status": "Not Started" },
+    { "name": "Linux", "status": "Not Started" },
+    { "name": "Networking", "status": "Not Started" },
+    { "name": "Cloud Computing", "status": "Not Started" },
+    { "name": "DevOps", "status": "Not Started" },
+    { "name": "Deployment", "status": "Not Started" }
+  ],
+  "lastUpdated": "2026-11-15"
 }
